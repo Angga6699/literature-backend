@@ -1,9 +1,9 @@
 FROM node:16
 
 ENV NODE_ENV production
-ENV DATABASE_URL postgresql://malik:P4ssword@database:5432/literature
+ENV DATABASE_URL postgresql://admin:P4ssw0rd@192.168.100.59:7117/literature
 
-WORKDIR /app
+WORKDIR /home/root
 COPY . .
 
 RUN npm install

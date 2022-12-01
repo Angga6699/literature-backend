@@ -1,7 +1,7 @@
 services:
  backend:
    container_name: literature-be
-   image: malikalrk/literature-be
+   image: angga/literature-backend
    stdin_open: true
    ports:
      - 5000:5000
